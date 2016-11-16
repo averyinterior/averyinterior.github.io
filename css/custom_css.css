@@ -1,0 +1,126 @@
+
+
+/* header */
+
+img.normal {height: 60% !important; margin-top: 20px !important;}
+img.light {height: 60% !important; margin-top: 20px !important;}
+nav.mobile_menu>ul {margin-bottom: 35px !important;}
+/* Call to Action - Stockholm main nav */
+
+li#nav-menu-item-25.menu-item.menu-item-type-post_type.menu-item-object-page.narrow a span {position: relative; display: inline-block; width: auto; height: 37px; line-height: 37px; margin: 0; padding: 0 22px; border: 2px solid #8f8664; font-size: 11px; font-weight: 800; font-family: inherit; text-align: left; color: #fff; background-color: #8f8664; text-decoration: none; cursor: pointer; outline: none; font-style: normal; text-transform: uppercase; text-shadow: none; letter-spacing: 2px; white-space: nowrap; border-radius: 0; -webkit-transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out, border-color 0.3s ease-in-out; -moz-transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out, border-color 0.3s ease-in-out; -ms-transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out, border-color 0.3s ease-in-out; -o-transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out, border-color 0.3s ease-in-out; transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out, border-color 0.3s ease-in-out; -webkit-box-sizing: initial !important; -moz-box-sizing: initial !important; box-sizing: initial !important;}
+li#nav-menu-item-25.menu-item.menu-item-type-post_type.menu-item-object-page.narrow a:hover span {color: #8f8664; background-color: transparent; border-color: #8f8664;}
+li#nav-menu-item-25.menu-item.menu-item-type-post_type.menu-item-object-page.narrow a span.plus {display: none;}
+
+/* Call to Action - Stockholm alt nav */
+
+li#nav-menu-item-8186.menu-item.menu-item-type-post_type.menu-item-object-page.narrow a span {position: relative; display: inline-block; width: auto; height: 37px; line-height: 37px; margin: 0; padding: 0 22px; border: 2px solid #8f8664; font-size: 11px; font-weight: 800; font-family: inherit; text-align: left; color: #fff; background-color: #8f8664; text-decoration: none; cursor: pointer; outline: none; font-style: normal; text-transform: uppercase; text-shadow: none; letter-spacing: 2px; white-space: nowrap; border-radius: 0; -webkit-transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out, border-color 0.3s ease-in-out; -moz-transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out, border-color 0.3s ease-in-out; -ms-transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out, border-color 0.3s ease-in-out; -o-transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out, border-color 0.3s ease-in-out; transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out, border-color 0.3s ease-in-out; -webkit-box-sizing: initial !important; -moz-box-sizing: initial !important; box-sizing: initial !important;}
+li#nav-menu-item-8186.menu-item.menu-item-type-post_type.menu-item-object-page.narrow a:hover span {color: #8f8664; background-color: transparent; border-color: #8f8664;}
+li#nav-menu-item-8186.menu-item.menu-item-type-post_type.menu-item-object-page.narrow a span.plus {display: none;}
+
+/* Gravity Forms - errors */
+
+body .gform_wrapper .validation_error {display: none;}
+body .gform_wrapper .gform_body .gform_fields .gfield_error {background: transparent; border:none;}
+body .gform_wrapper .gfield_error .gfield_label {color: #ff000; font-family: 'Raleway', sans-serif !important; font-size: 13px !important; font-style: normal; font-weight: 400 !important;}
+body .gform_wrapper .gform_body .gform_fields .gfield_error .validation_message {color: #ff0000; font-family: 'Raleway', sans-serif !important; font-size: 13px !important; font-style: normal; font-weight: 400 !important;}
+body .gform_wrapper li.gfield_error input[type=email] {border: 1px solid #ff0000;}
+.gform_wrapper .field_description_below .gfield_description {padding-top: 0px !important;}
+
+/* Gravity Forms - MailChimp sidebar */
+
+body #gform_wrapper_3 .gform_heading .gform_description {color: #636363;}
+body #gform_wrapper_3 .gform_body .gform_fields .gfield input[type=email] {width: 100%; border: 1px solid #a6a6a6;}
+body #gform_wrapper_3 .gform_footer input[type=submit] {height: 37px; font-size: 11px;}
+aside.sidebar .widget:not(.woocommerce) li {font-family: 'Raleway', sans-serif;}
+
+/* Gravity Forms - MailChimp footer */
+
+body #gform_wrapper_4 .gform_body .gform_fields .gfield input[type=email] {width: 100%;}
+body #gform_wrapper_4 .gform_footer input[type=submit] {margin-top: 1px; height: 37px; font-size: 11px;}
+
+/* Gravity Forms - Web-to-Lead */
+
+body #gform_wrapper_5 .gform_body .gform_fields  #field_5_23.gfield {margin: 35px 0 35px 0;}
+body #gform_wrapper_5 .gform_body .gform_fields  #field_5_23.gfield .gfield_label {display: none;}
+body #gform_wrapper_5 .gform_body .gform_fields  #field_5_23.gfield .gfield_label .gfield_required {display: none;}
+body #gform_wrapper_5 .gform_body .gform_fields .gfield input[type=email] {border: 1px solid #a6a6a6; margin-bottom: 20px;}
+body #gform_wrapper_5 .gform_body .gform_fields .gfield input[type=tel] {border: 1px solid #a6a6a6; margin-bottom: 20px;}
+body #gform_wrapper_5 .gform_body .gform_fields .gfield input[type=text] {border: 1px solid #a6a6a6; margin-bottom: 20px;}
+body #gform_wrapper_5 .gform_body .gform_fields .gfield textarea {border: 1px solid #a6a6a6; height: 200px;}
+body #gform_wrapper_5 .gform_body .gform_fields .gfield input[type=url] {border: 1px solid #a6a6a6;}
+body #gform_wrapper_5 .gform_body .gform_fields .gfield select {margin-bottom: 20px;}
+body #gform_wrapper_5 .gform_footer input[type=submit] {font-size: 11px;}
+body .gform_wrapper .gform_body .gform_fields #field_5_3 input[type=text] {margin-bottom: 0;}
+body .gform_wrapper .gform_body .gform_fields #field_5_7 input[type=text] {margin-bottom: 0;}
+.gf-upload {margin-top: 20px !important;}
+.gf-url {margin-top: 20px !important;}
+body #gform_wrapper_5 .gform_body .gform_fields  #field_5_25.gfield {margin-top: 20px;}
+.gform_wrapper .gfield_radio li label {font-size: 13px !important;}
+
+/* Contact */
+
+.contact-social a {color: #8d8d8d;}
+.contact-social a:hover {color: #8f8664;}
+
+/* Blog and Portfolio top margin fix */
+
+@media only screen and (min-width: 1000px){body:not(.home) .content {margin-top: 100px;}}
+
+/* hide sidebar on Portfolio archive page */
+
+.post-type-archive-portfolio_page .two_columns_75_25>.column2 {display: none;}
+.post-type-archive-portfolio_page .two_columns_75_25>.column1 {width: 100%;}  */
+
+/* sidebar widgets */
+
+aside.sidebar .widget a:hover {color: #8f8664;}
+aside.sidebar .widget:not(.woocommerce) li a {font-family: 'Raleway', sans-serif; font-size: 13px; line-height: 23px; color: #636363; font-weight: 400; font-style: normal;}
+aside.sidebar .widget:not(.woocommerce) li {margin: 0;}
+aside.sidebar .widget a {color: #636363;}
+
+/* blockquote */
+
+blockquote {margin-left: 40px; margin-right: 40px;}
+blockquote p {margin-left: 45px;}
+blockquote:before {font-family: 'FontAwesome'; content: '\f10e'; color: #8f8664; font-size: 32px; position: absolute; top: 22px;}
+
+/* hide Press portfolio filter */
+
+[data-filter="portfolio_category_262"] {display: none !important;}
+
+/* VC content menus */
+
+nav.content_menu ul li a {color: #696969;}
+
+/* Single portfolio items bottom margin fix */
+
+.portfolio_single.big-slider {margin-bottom: 90px;}
+.portfolio_single.fixed-right {margin-bottom: 95px;}
+.portfolio_single.small-slider {margin-bottom: 80px;}
+.portfolio_single.masonry-gallery {margin-bottom: 80px;}
+
+/* disable portfolio hover
+.projects_holder.standard article:hover .portfolio_shader {display: none !important;} */
+
+/* Portfolio hover same as Instagram widget */
+
+.projects_holder.standard article:hover .portfolio_shader {background-color: #000 !important; opacity: 0.2;}
+
+/* hide social share on Blog page
+.blog_share {display: none !important;}  */
+
+/* dropcap margin fix */
+
+.q_dropcap.square {margin: 5px 12px 0 0;}
+
+/* Testimonials featured images @2x */
+
+.testimonial_image_holder img {width: 150px; max-width: 75px;}
+
+/* single Portfolio button top and bottom padding */
+
+.portfolio_single_content a.qbutton.qbutton_with_icon {margin: 12px 0 15px 0;}
+
+/* About page and Blog link underline */
+
+.link-underline {font-weight: 400; text-decoration: underline;}

@@ -1,4 +1,4 @@
-body {
+/*body {
     margin: 60px auto;
     width: 70%;
 }
@@ -40,4 +40,122 @@ ul.posts {
 
 ul.posts li {
     list-style: none;
+}
+*/
+
+
+.container {
+    padding-left: 75px;
+    padding-right: 75px;
+    background-color: white;
+}
+
+.navbar {
+    background-color: white;
+}
+
+.navbar-default {
+    border-color: white;
+    margin-bottom: 0px;
+}
+
+.navbar-brand {
+  height: 80px;
+  padding: 0px;
+}
+
+.nav >li >a {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.navbar-toggle {
+  padding: 10px;
+  margin: 25px 15px 25px 0;
+}
+
+.navbar-brand>img {
+    width: 100px;
+}
+
+#collapsed {
+    border-color: white;
+}
+
+.icon-bar {
+    background-color: #888;
+}
+
+#id:hover {
+    background-color: white;
+}
+
+@media only screen and (max-width : 768px){
+    .navbar-brand {
+      padding: 0px;
+      transform: translateX(-50%);
+      left: 50%;
+      position: absolute;
+    }
+
+    .example-8 .navbar-brand>img {
+      height: 100%;
+      width: auto;
+      padding: 7px 14px; 
+    }
+
+}
+
+@media (min-width: 768px) {
+  ul.nav li.dropdown:hover > ul.dropdown-menu {
+    display: block;
+  }
+}
+
+.carousel-inner .item {
+  opacity: 0;
+  transition-property: opacity;
+}
+.carousel-inner .active {
+  opacity: 1;
+}
+.carousel-inner .active.left,
+.carousel-inner .active.right {
+  left: 0;
+  opacity: 0;
+  z-index: 1;
+}
+.carousel-inner .next.left,
+.carousel-inner .prev.right {
+  opacity: 1;
+}
+.carousel-control {
+  z-index: 2;
+}
+
+.carousel-control.right{
+    background-image: none;
+}
+
+.carousel-control.left{
+    background-image: none;
+}
+
+@media all and (transform-3d), (-webkit-transform-3d) {
+    .carousel-inner > .item.next,
+    .carousel-inner > .item.active.right {
+      -webkit-transform: translate3d( 0, 0, 0);
+      transform: translate3d( 0, 0, 0);
+    }
+    .carousel-inner > .item.prev,
+    .carousel-inner > .item.active.left {
+      -webkit-transform: translate3d( 0, 0, 0);
+      transform: translate3d( 0, 0, 0);
+    }
+    .carousel-inner > .item.next.left,
+    .carousel-inner > .item.prev.right,
+    .carousel-inner > .item.active {
+       -webkit-transform: translate3d(0, 0, 0);
+       transform: translate3d(0, 0, 0);
+    }
 }
