@@ -182,11 +182,19 @@ li {
   font-style: italic;
   /*color: #8f8664;*/
   color: #152750;
-  margin-bottom: 5px;
-  border-color: #152750;
+  /*margin-bottom: 5px;*/
+  margin-bottom: 0px;
+  /*border-color: #152750;*/
+  border: none;
 }
 
+.averysubheader {
+  margin-top: 0px;
+}
 
+.page-header {
+  margin-bottom: 0px !important;
+}
 #contactuslink:hover {
   color: #e6ae48;
 }
@@ -199,6 +207,12 @@ li {
   width: 25%;
   border-color: #152750;
 }  
+
+.row-seperator {
+  width: 25%;
+  border-color: #152750;
+  max-width: 80px;
+}
 
 .portfolio-header {
   margin-top: 20px;
@@ -214,6 +228,7 @@ footer {
   background-color: #393939;
   width: 100%;
   color: white;
+  margin-bottom: 0px;
 }
 
 footer .row {
@@ -246,6 +261,7 @@ footer .row {
   color: #e6ae48;
 }
 
+
 .footer-container{
   clear: both;
   position: relative;
@@ -268,3 +284,12 @@ footer .row {
   top: 0;
   width: 1px;
 }
+
+.recenthomes {
+  margin-top: 20px;
+}
+
+.recent-image {
+  margin-bottom: 30px;
+}
+
