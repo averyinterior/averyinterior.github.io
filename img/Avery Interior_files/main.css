@@ -1,21 +1,11 @@
 body {
   font-family: 'Raleway',sans-serif;
-  /*color: #696969;*/
-  color: #152750;
+  color: #696969;
   letter-spacing: 2px;
-  -webkit-font-smoothing: antialiased;
 }
 
 p {
-  /*color: #8b8b8b;*/
-}
-
-img {
-    image-orientation: 0deg;
-}
-
-a {
-  text-decoration: none !important;
+  color: #8b8b8b;
 }
 
 .container {
@@ -34,8 +24,8 @@ a {
 }
 
 .navbar-brand {
-  width: 175px;
   height: 80px;
+  padding: 0px;
 }
 
 .nav >li >a {
@@ -48,22 +38,12 @@ a {
   margin: 25px 15px 25px 0;
 }
 
-/*.navbar-brand>img {
+.navbar-brand>img {
     width: 100px;
-}*/
-
-.navbar-default .navbar-nav>li>a {
-    /* color: #777; */
-    color: #152750;
-}
-
-#logoimg {
-  width: 100%;
 }
 
 #collapsed {
     border-color: white;
-    background-color: white;
 }
 
 .icon-bar {
@@ -86,10 +66,6 @@ a {
       height: 100%;
       width: auto;
       padding: 7px 14px; 
-    }
-
-    #logoimg {
-      padding-top: 10px;
     }
 
 }
@@ -154,12 +130,16 @@ li {
   text-rendering: uppercase;
 }
 
-/*.contactus{
+li:hover {
+  color: blue; !important
+}
+
+.contactus{
   background-color: #8f8664; 
   color: white;
 }
-*/
-/*.contactus:hover {
+
+.contactus:hover {
   background-color: white;
   color: #e6ae48;
   border: 2px solid;
@@ -169,23 +149,20 @@ li {
   -ms-transition: background 0.3s linear;
   -o-transition: background 0.3s linear;
   transition: background 0.3s linear;
-}*/
-
-/*#contactuslink {
-  color: white;
-}*/
-
-.averyheader {
-  font-family: 'Crete Round', sans-serif;
-  font-size: 20px;
-  font-weight: 500;
-  font-style: italic;
-  /*color: #8f8664;*/
-  color: #152750;
-  margin-bottom: 5px;
-  border-color: #152750;
 }
 
+.averyheader {
+  font-family: Crete Round, sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  font-style: italic;
+  color: #8f8664;
+  margin-bottom: 5px;
+}
+
+#contactuslink {
+  color: white;
+}
 
 #contactuslink:hover {
   color: #e6ae48;
@@ -197,7 +174,7 @@ li {
 
 .seperator {
   width: 25%;
-  border-color: #152750;
+  color: #8b8b8b;
 }  
 
 .portfolio-header {
@@ -208,63 +185,4 @@ li {
 
 .portfolio-text {
   font-size: 13px; 
-}
-
-footer {
-  background-color: #393939;
-  width: 100%;
-  color: white;
-}
-
-footer .row {
-  /*padding: 75px;*/
-}
-
-.footer-container {
-  padding:75px;
-}
-
-.footer-header {
-  font-size: 13px;
-  margin-bottom: 20px;
-  font-weight: 700;
-}
-
-.footer-body {
-  font-size: 13px;
-}
-
-#about-text {
-  margin-bottom: 25px;
-}
-
-#email-link {
-  color: white;
-}
-
-#email-link:hover {
-  color: #e6ae48;
-}
-
-.footer-container{
-  clear: both;
-  position: relative;
-}
-
-.footer-container:after {
-  clear: both;
-  content: " ";
-  display: block;
-  height: 0;
-  visibility: hidden;
-}
-
-.footer-container .column:not(:first-child):after, .footer-container .columns:not(:first-child):after{
-  background: #DDDDDD;
-  bottom: 0;
-  content: " ";
-  margin-left: -10px;
-  position: absolute;
-  top: 0;
-  width: 1px;
 }
